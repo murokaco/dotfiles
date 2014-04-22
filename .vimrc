@@ -21,7 +21,7 @@ set noswapfile
 set nobackup
 set visualbell t_vb=
 set clipboard+=unnamed
- 
+
 let mapleader = ' '
 nnoremap <Leader>h <C-w>h
 nnoremap <Leader>j <C-w>j
@@ -106,4 +106,4 @@ if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
 endif
 
-colorscheme railscasts
+colorscheme jellybeans
