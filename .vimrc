@@ -21,6 +21,7 @@ set noswapfile
 set nobackup
 set visualbell t_vb=
 set clipboard+=unnamed
+set listchars=eol:↲
 
 let mapleader = ' '
 nnoremap <Leader>h <C-w>h
