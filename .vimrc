@@ -1,7 +1,7 @@
 set fileencodings=ucs-bom,utf-8,iso-2022-jp,sjis,cp932,euc-jp,cp20932
 set tabstop=4
 set softtabstop=0
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
 set backspace=2
 set smartindent
@@ -79,6 +79,7 @@ NeoBundle 'mattn/emmet-vim'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'slim-template/vim-slim'
+NeoBundle 'wavded/vim-stylus'
 
 filetype plugin indent on
  
