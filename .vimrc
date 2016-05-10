@@ -80,6 +80,7 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'wavded/vim-stylus'
+NeoBundle 'ctrlpvim/ctrlp.vim'
 
 filetype plugin indent on
  
@@ -110,5 +111,10 @@ endif
 if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
 endif
+
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+set wildignore=.git,node_modules,​*.swp,*​.bak,assets
 
 colorscheme jellybeans
